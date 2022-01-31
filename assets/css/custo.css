@@ -159,7 +159,7 @@ a.custo-link:hover {
 .map-section {
   padding-bottom: 20px;
   padding-top: 5em;
-  background: #000a0a;
+  background: #fff;
 }
 @media(min-width: 700px) {
   .vision-card-description {
