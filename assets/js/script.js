@@ -61,6 +61,9 @@
 			centeredSlides: !0,
 			preloadImages: !1,
 			lazy: !0,
+			autoplay: {
+				delay: 2000,
+			},
 			breakpoints: {
 				0: {
 					slidesPerView: 1,
