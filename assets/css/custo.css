@@ -112,7 +112,13 @@ body::-webkit-scrollbar { display: none; }
   width: auto;
   margin-right: 8px;
 }
-
+a.custo-link {
+  color: #fff !important;
+}
+a.custo-link:hover {
+  cursor:unset !important;
+  text-decoration: unset !important;
+}
 @media(min-width: 700px) {
   .vision-card-description {
     width: 72%;
