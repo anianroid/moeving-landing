@@ -119,6 +119,22 @@ a.custo-link:hover {
   cursor:unset !important;
   text-decoration: unset !important;
 }
+.open-positions-list {
+  border-left: 1px solid #00b75f;
+}
+.open-positions-list::before {
+  height: 23px;
+  width: 23px;
+  border-radius: 100%;
+  background-color: #00b75f;
+  content: "";
+  position: absolute;
+  left: 3.5px;
+  top: 0;
+}
+.open-positions-list-t-3::before {
+  top: 20px;
+}
 @media(min-width: 700px) {
   .vision-card-description {
     width: 72%;
