@@ -85,6 +85,9 @@ body::-webkit-scrollbar { display: none; }
   background-color: #1c1c1c94;
   padding: 24px;
 }
+.slide:nth-child(2) > .vision-card-overlay {
+  align-items: flex-end;
+}
 .vision-card-description {
   width: 100%;
   display: flex;
