@@ -17,9 +17,11 @@
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="plugins/line-awesome/css/line-awesome.min.css">
   <link rel="stylesheet" href="plugins/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
   <!-- main stylesheet -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/custo.css" rel="stylesheet">
 
 </head>
 
@@ -97,13 +99,7 @@
                     <li><a class="dropdown-item" href="index-personal-portfolio-2.html">Personal Portfolio 2</a></li>
                 </ul>
               </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                  <!-- <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="about-me.html">About Me</a></li>
-                    <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
-                </ul> -->
-                </li>
+
                 <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
                 <ul class="dropdown-menu">
@@ -134,15 +130,14 @@
                   <li><a class="dropdown-item" href="style-guide.html">Style Guide</a></li>
                 </ul>
               </li> -->
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link">Contact</a>
-                </li>
+                </li> -->
               </ul>
 
               <!-- navbar actions -->
               <div class="navbar-actions">
-                <a class="btn btn-white" data-text="Buy Now"
-                  rel="nofollow"><span>Get in touch</span></a>
+                <a class="btn btn-white" data-text="Contact us" rel="nofollow"><span>Get in touch</span></a>
               </div>
             </div>
           </nav>
@@ -160,17 +155,17 @@
           <p class="mb-3 font-weight-500">We Are Moeving</p>
           <h1 class="banner-title mb-5 text-white">Accelerating EV Adoption<span class="text-primary">.</span></h1>
 
-          <a class="btn btn-white" data-text="Case Studies"><span>Our products</span></a>
+          <a class="btn btn-white" data-text="Our Solutions"><span>Our Solutions</span></a>
         </div>
         <div class="col-xl-4 col-lg-5 col-md-10 mt-5 mt-lg-0 has-anim fade anim-delay-2">
-          <p class="lead text-white" style="margin-bottom:2rem">Aenean ac erat vitae nisi bibendum scelerisque non a
-            arcu. Integer semper mauris vitae dolor interdum ullamcorper sit amet id ipsum.</p>
-          <a class="line-link">About Us <svg class="arrow-up-right"
+          <p class="lead text-white" style="margin-bottom:2rem">We are building a driver-centric technology platform to
+            make EV adoption seamless with data at the center of its strategy. </p>
+          <!-- <a class="line-link">About Us <svg class="arrow-up-right"
               xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2">
               <line x1="7" y1="17" x2="17" y2="7"></line>
               <polyline points="7 7 17 7 17 17"></polyline>
-            </svg></a>
+            </svg></a> -->
         </div>
       </div>
 
@@ -278,7 +273,7 @@
   <!-- end of navigation -->
 
   <!-- start of services  -->
-  <section class="section">
+  <!-- <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-sm-6 has-anim fade">
@@ -355,17 +350,17 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- end of services  -->
 
   <!-- start of portfolio-carousel-fluid -->
-  <section class="section bg-white portfolio-carousel-fluid">
+  <section class="section bg-dark portfolio-carousel-fluid">
     <div class="container">
       <div class="row">
         <div class="col-12 has-anim fade">
           <div class="section-title text-center">
             <!-- <p class="mb-2">Recent works</p> -->
-            <h2 class="title text-dark">Our Solutions</h2>
+            <h2 class="title text-white">Our Solutions</h2>
           </div>
         </div>
       </div>
@@ -470,54 +465,50 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-sm-6">
-          <div class="mb-4 pb-3 has-anim">
-            <div class="card portfolio-card">
-              <a class="card-img overflow-hidden rounded-0">
-                <img loading="lazy" class="img-fluid" src="assets/images/portfolio/grid/01.jpg"
-                  alt="Portfolio Thumbnail">
-              </a>
-              <div class="block">
-                <h3 class="h4 mb-1"><a class="text-dark text-underline">Creating a better environment</a></h3>
-                <p class="font-weight-500 mb-0">Creating a better environment for children and the nature to live in</p>
-                  <p>Mobility of goods and people is the biggest contributor to air pollution. We are committed to being carbon neutral across all our business verticals.</p>
-              </div>
+    <div class="container-fluid">
+
+      <div id="slide-window">
+
+        <ol id="slides" start="1">
+
+          <li class="slide color-0 alive"
+            style="background-image:url(assets/images/vision-images/1.jpg);">
+            <div class="vision-card-overlay">
+              <div class="vision-card-description">
+              <h2>Creating a better environment for children and the nature to live in</h2>
+              <h4>Mobility of goods and people is the biggest contributor to air pollution. We are committed to being carbon neutral across all our business verticals.</h4>
+              <p>We aim to reduce pollution by 10 million tonnes of CO2, equivalent to planting 500 million trees by 2026. </p>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="mb-4 pb-3 has-anim anim-delay-1">
-            <div class="card portfolio-card">
-              <a class="card-img overflow-hidden rounded-0">
-                <img loading="lazy" class="img-fluid" src="assets/images/portfolio/grid/02.jpg"
-                  alt="Portfolio Thumbnail">
-              </a>
-              <div class="block">
-                <h3 class="h4 mb-1"><a class="text-dark text-underline">Improving driver lives</a>
-                </h3>
-                <p class="font-weight-500 mb-0">Our vision to build a driver centric platform stems from our mission of building better livelihoods for drivers, establishing a safe and respectable work environment and creating financial inclusion.</p>
-                <p>We strive to create and empower 100,000 electric vehicle micro-entrepreneurs by 2026</p>
-              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="mb-4 pb-3 has-anim anim-delay-2">
-            <div class="card portfolio-card">
-              <a class="card-img overflow-hidden rounded-0">
-                <img loading="lazy" class="img-fluid" src="assets/images/portfolio/grid/03.jpg"
-                  alt="Portfolio Thumbnail">
-              </a>
-              <div class="block">
-                <h3 class="h4 mb-1"><a class="text-dark text-underline">Pointing</a></h3>
-                <p class="font-weight-500 mb-0">MoEVing strives to create an environment of respect, safety and freedom from harassment and discrimination.We ensure that every step we take is in the right direction in terms of sustainability and policy compliance. Creating an operations tech product in parallel to structuring our demand contracts in a manner that gives the flexibility to all genders to earn a better living on the MoEVing platform at a time and need of their choice.</p>
-              </div>
+          </li>
+
+          <li class="slide color-1"
+            style="background-image:url(assets/images/vision-images/2.jpg);">
+            <div class="vision-card-overlay">
+              <div class="vision-card-description">
+              <h2>Improving driver lives</h2>
+              <h4>Our vision to build a driver centric platform stems from our mission of building better livelihoods for drivers, establishing a safe and respectable work environment and creating financial inclusion.</h4>
+              <p>We strive to create and empower 100,000 electric vehicle micro-entrepreneurs by 2026. </p>
             </div>
-          </div>
-        </div>
+            </div>
+          </li>
+
+          <li class="slide color-2"
+            style="background-image:url(assets/images/vision-images/3.jpg);">
+            <div class="vision-card-overlay">
+              <div class="vision-card-description">
+              <h2>Building an ethical, transparent and sustainable organization</h2>
+              <h4>MoEVing strives to create an environment of respect, safety and freedom from harassment and discrimination.We ensure that every step we take is in the right direction in terms of sustainability and policy compliance.</h4>
+              <p>Creating an operations tech product in parallel to structuring our demand contracts in a manner that gives the flexibility to all genders to earn a better living on the MoEVing platform at a time and need of their choice.</p>
+            </div>
+            </div>
+          </li>
+        </ol>
+
+        <span class="nav fa fa-arrow-left fa-2x" id="left"></span>
+        <span class="nav fa fa-arrow-right fa-2x" id="right"></span>
       </div>
+
     </div>
   </section>
 
@@ -678,7 +669,7 @@
                 <li>
                   <h4><a href="" class="text-light font-weight-500 d-block mb-2">
                       750+ Fleet</a></h4>
-                  <span>(2 and 3 wheelers)</span>
+                  <span>2 and 3 wheelers</span>
                 </li>
                 <li>
                   <h4><a href="" class="text-light font-weight-500 d-block mb-2">
@@ -695,7 +686,7 @@
             </div>
             <div class="col-lg-7 col-md-8">
               <ul class="open-positions-list pl-0 pl-md-5">
-                <li>
+                <!-- <li>
                   <h4><a class="text-light font-weight-500 d-block mb-2">Fully built out tech
                       team with data scientists on board</a></h4>
                 </li>
@@ -703,7 +694,7 @@
                   <h4><a class="text-light font-weight-500 d-block mb-2">Fully developed and
                       operationalized</a></h4>
                   <span>Charging and financing business</span>
-                </li>
+                </li> -->
                 <li>
                   <h4><a class="text-light font-weight-500 d-block mb-2">50 Operational
                       Clients</a></h4>
@@ -754,7 +745,7 @@
       <div class="row justify-content-center">
         <div class="col-12 has-anim fade">
           <div class="section-title text-center mb-4">
-            <p class="mb-2">Latest news</p>
+            <!-- <p class="mb-2">Latest news</p> -->
             <h2 class="title text-dark">Our presence in the news</h2>
           </div>
         </div>
@@ -766,8 +757,8 @@
 
             <div class="row justify-content-center align-items-center">
               <div class="col-lg-6">
-                <a class="card-image"><img loading="lazy" src="assets/images/blogs/01-hr.jpg"
-                    class="card-img rounded-0" alt="blog-post"></a>
+                <a class="card-image"><img loading="lazy" src="assets/images/blogs/01-hr.jpg" class="card-img rounded-0"
+                    alt="blog-post"></a>
               </div>
               <div class="col-lg-6 mt-4 mt-sm-5 mt-lg-0">
                 <div class="card-body p-0 p-lg-4">
@@ -788,13 +779,13 @@
           <article class="card blog-card border-0 rounded-0">
             <div class="card-background" style="background-color:#0a11a8"></div>
 
-            <a class="card-image"><img loading="lazy" src="assets/images/blogs/01.jpg"
-                class="card-img rounded-0" alt="blog-post"></a>
+            <a class="card-image"><img loading="lazy" src="assets/images/blogs/01.jpg" class="card-img rounded-0"
+                alt="blog-post"></a>
 
             <div class="card-body p-0 mt-4">
 
               <h4 class="card-title"><a>Aenean in diam a ipsum tristique suscipit non id
-                lorem</a></h4>
+                  lorem</a></h4>
               <p class="card-text">Proin lacinia bibendum tempor. Etiam suscipit tortor nec euismod dapibus. Nunc
                 vitae sem varius felis ornare vulputate.</p>
 
@@ -806,13 +797,13 @@
           <article class="card blog-card border-0 rounded-0">
             <div class="card-background" style="background-color:#002306"></div>
 
-            <a class="card-image"><img loading="lazy" src="assets/images/blogs/02.jpg"
-                class="card-img rounded-0" alt="blog-post"></a>
+            <a class="card-image"><img loading="lazy" src="assets/images/blogs/02.jpg" class="card-img rounded-0"
+                alt="blog-post"></a>
 
             <div class="card-body p-0 mt-4">
 
               <h4 class="card-title"><a>Aenean in diam a ipsum tristique suscipit non id
-                lorem</a>
+                  lorem</a>
               </h4>
               <p class="card-text">Proin lacinia bibendum tempor. Etiam suscipit tortor nec euismod dapibus. Nunc
                 vitae sem varius felis ornare vulputate.</p>
@@ -825,13 +816,13 @@
           <article class="card blog-card border-0 rounded-0">
             <div class="card-background" style="background-color:#c76234"></div>
 
-            <a class="card-image"><img loading="lazy" src="assets/images/blogs/03.jpg"
-                class="card-img rounded-0" alt="blog-post"></a>
+            <a class="card-image"><img loading="lazy" src="assets/images/blogs/03.jpg" class="card-img rounded-0"
+                alt="blog-post"></a>
 
             <div class="card-body p-0 mt-4">
 
               <h4 class="card-title"><a>Aenean in diam a ipsum tristique suscipit non id
-                lorem</a></h4>
+                  lorem</a></h4>
               <p class="card-text">Proin lacinia bibendum tempor. Etiam suscipit tortor nec euismod dapibus. Nunc
                 vitae sem varius felis ornare vulputate.</p>
 
@@ -850,9 +841,9 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <h4 class="h3 font-weight-light text-white">Have an idea, tell us about it!<a 
-                class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
-                  fill="none" stroke="currentColor" stroke-width="2">
+            <h4 class="h3 font-weight-light text-white">Have an idea, tell us about it!<a class="text-primary"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
                   <line x1="7" y1="17" x2="17" y2="7"></line>
                   <polyline points="7 7 17 7 17 17"></polyline>
                 </svg></a></h4>
@@ -923,6 +914,61 @@
 
   <!-- Main Script -->
   <script src="assets/js/script.js"></script>
+
+  <script>
+    $.global = new Object();
+
+    $.global.item = 1;
+    $.global.total = 0;
+
+    $(document).ready(function () {
+
+      var WindowWidth = $(window).width();
+      var SlideCount = $('#slides li').length;
+      var SlidesWidth = SlideCount * WindowWidth;
+
+      $.global.item = 0;
+      $.global.total = SlideCount;
+
+      $('.slide').css('width', WindowWidth - 8 + 'px');
+      $('#slides').css('width', SlidesWidth + 'px');
+
+      $("#slides li:nth-child(1)").addClass('alive');
+
+      $('#left').click(function () { Slide('back'); });
+      $('#right').click(function () { Slide('forward'); });
+
+    });
+
+    function Slide(direction) {
+
+      if (direction == 'back') { var $target = $.global.item - 1; }
+      if (direction == 'forward') { var $target = $.global.item + 1; }
+
+      if ($target == -1) { DoIt($.global.total - 1); }
+      else if ($target == $.global.total) { DoIt(0); }
+      else { DoIt($target); }
+
+
+    }
+
+    function DoIt(target) {
+
+      var $windowwidth = $(window).width();
+      var $margin = $windowwidth * target;
+      var $actualtarget = target + 1;
+
+      $("#slides li:nth-child(" + $actualtarget + ")").addClass('alive');
+
+      $('#slides').css('transform', 'translate3d(-' + $margin + 'px,0px,0px)');
+
+      $.global.item = target;
+
+      $('#count').html($.global.item + 1);
+
+    }
+
+  </script>
 
 </body>
 
