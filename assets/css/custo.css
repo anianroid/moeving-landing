@@ -87,12 +87,18 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: flex-start;
   background-color: #1c1c1c94;
-  padding: 24px;
+  padding: 0px;
+}
+.vision-title {
+  font-size: 20px;
+}
+.vision-body-content {
+  font-size: 12px;
 }
 .vision-container {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 .slide:nth-child(2) > .vision-card-overlay {
@@ -102,7 +108,7 @@ body::-webkit-scrollbar {
   width: 100%;
   display: flex;
   flex-flow: column wrap;
-  padding: 16px;
+  padding: 0px;
   justify-content: flex-end;
   background-color: #0000008f;
 }
@@ -171,7 +177,7 @@ a.custo-link:hover {
   padding-top: 5em;
   background: #fff;
 }
-@media (min-width: 700px) {
+@media (min-width: 760px) {
   .vision-card-description {
     width: 72%;
     display: flex;
@@ -181,13 +187,41 @@ a.custo-link:hover {
   }
 }
 
+@media (min-width: 530px) {
+  .vision-card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1c1c1c94;
+    padding: 24px;
+  }
+  .vision-card-description {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 16px;
+    justify-content: flex-end;
+    background-color: #0000008f;
+  }
+  .vision-title {
+    font-size: 28px;
+  }
+  .vision-body-content {
+    font-size: 14px;
+  }
+}
+
 .solution-main-container {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   margin-top: 24px;
 }
