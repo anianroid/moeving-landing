@@ -310,6 +310,7 @@ a.custo-link:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 24px;
   }
   .solution-single-para {
     width: 80%;
