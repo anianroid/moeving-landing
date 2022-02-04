@@ -218,7 +218,20 @@ a.custo-link:hover {
   width: 75%;
 }
 
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
 @media (max-width: 1080px) {
+  .contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
   .solution-main-container {
     width: 100%;
     padding-left: 10%;
