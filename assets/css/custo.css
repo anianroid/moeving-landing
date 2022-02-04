@@ -224,6 +224,9 @@ a.custo-link:hover {
   justify-content: space-around;
   flex-direction: row;
 }
+.contact-button {
+  margin-top: 0px;
+}
 
 @media (max-width: 1080px) {
   .contact-section {
@@ -231,6 +234,9 @@ a.custo-link:hover {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+  }
+  .contact-button {
+    margin-top: 40px;
   }
   .solution-main-container {
     width: 100%;
