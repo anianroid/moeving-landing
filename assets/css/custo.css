@@ -3,7 +3,7 @@ body::-webkit-scrollbar {
 }
 
 .banner-image {
-  animation: pebbleFade 8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation: pebbleFade 6s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
   animation-iteration-count: infinite;
   position: relative;
 }
